@@ -28,17 +28,45 @@
     line-height: 96.5px;
     font-weight: normal;
   }
-  
 
-  .menuListContainer {
-    width: 81%;
-    height: auto;
+
+  .proSuiteTitle{
+    font-size: 24px;
+    font-weight: 700;
+    color: #B5B5B6;
+    line-height: 10px;
+  }
+  .paragraphContent{
+    font-weight: 400;
+    font-size: 16;
+    color: #B5B5B6;
+    line-height: 24px;
+  }
+
+  .itemContainer {
+    text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+    box-shadow: 1px 2px 16px  rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+  .listItem{
+     width: 100%; 
+     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+
   }
 
-  .menuItem {
+  .itemContainer {
     border-radius: 15px;
     width: 400px;
     height: 400px;
@@ -46,15 +74,24 @@
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   }
 
+  .screen{
+  
+    height: 150px;
+    width: 98.18px;
+    
+    background-size: contain;
+    background-position: center;
+  }
+
   @media only screen and (max-width: 1300px) {
-    .menuListContainer {
+    .itemContainer {
       width: 100%;
       grid-template-columns: 1fr 1fr;
     }
   }
   
   @media only screen and (max-width: 800px) {
-    .menuListContainer {
+    .itemContainer {
       grid-template-columns: 2fr;
     }
   }

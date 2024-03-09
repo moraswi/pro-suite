@@ -1,6 +1,7 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import "../styles/Home.css"
-import PizzaLeft from "../assets/screen.png" 
+import screen from "../assets/screen.png" 
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
     </div>
 
     <img
-        src={PizzaLeft}
+        src={screen}
         alt="Description of the image"
         className="rightSide"
       />
