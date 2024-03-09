@@ -1,7 +1,6 @@
 import "../styles/ContactUs.css"
 import React from 'react'
 import TextField from '@mui/material/TextField';
-import PizzaLeft from "../assets/pizzaLeft.jpg" 
  
 
 export default function ContactUs() {
@@ -30,9 +29,7 @@ export default function ContactUs() {
               <button>SUBMIT</button>
          </div>
 
-         <div className="rightSide" style={{ backgroundImage: `url(${PizzaLeft})` }} >
-        
-       </div>
+     
        
     </div>
   )
