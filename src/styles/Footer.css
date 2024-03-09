@@ -1,0 +1,22 @@
+.footerMainContainer{
+    width: 100%;
+    height: 200px;
+    background-color: #121619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    /* margin: 0px; */
+}
+
+.iconsContainer svg {
+    color: White;
+    font-size: 50px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.footerMainContainer p {
+color: white;
+}
