@@ -1,6 +1,7 @@
 /* Footer.css */
 .footer {
-    background-color: #1a1a1a;
+    /* background-color: #348ADD; */
+    background: linear-gradient( #348ADD, #2E6CA8);
     color: #ffffff;
     margin-top: 60px;
     /* padding: 20px; */
@@ -35,15 +36,24 @@
     /* background-color: red; */
   }
 
+  .subTitles{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+  }
+
   .buttonReq{
-        
-        border-radius: 4px;
+        /* border-radius: 4px; */
         border-color: transparent;
         padding: 12px 24px 12px 24px;
         font-size: 16px;
         line-height: 16px;
         font-weight: 700;
+        background: linear-gradient(#54B9ED, #2E6CA8);
+        cursor: pointer;
+        /* transition: all 0.3s ease; */
   }
+ 
   
   .footerContent {
     /* width: 1900px; */
@@ -120,6 +130,12 @@
     cursor: pointer;
     /* margin-right: 10px; */
   }
+
+  .footerTitle{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 16px;
+  }
   
   /* .footer-logo {
     max-width: 100px;
@@ -150,6 +166,22 @@
     flex-direction: row;
 }
   
+@media only screen and (max-width: 1300px) {
+
+  .footerTitle{
+    font-size: 20px;
+    line-height: 18px;
+  }
+
+  .buttonReq{
+        
+    border-radius: 4px;
+    border-color: transparent;
+    padding: 7px 15px 7px 15px;
+    font-size: 10px;
+    line-height: 12px;
+}
+}
  
   
 

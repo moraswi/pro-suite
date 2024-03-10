@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
     margin-top: 40px;
+    /* background-color: blue; */
   }
 
   .vertical-line {
@@ -32,6 +33,8 @@ grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
 grid-gap: 40px;
  }
 
+
+
  .solutionItemContainer {
     text-align: center;
     text-align: left;
@@ -57,8 +60,8 @@ grid-gap: 40px;
   }
 
   .solutionVerticalWhiteLine{
-background-color: transparent;
-width: 2px;
+    background-color: transparent;
+    width: 2px;
     height: 85px;
     margin-right: 20px;
   }
@@ -69,6 +72,8 @@ width: 2px;
     font-weight: 700;
     font-size: 16px;
     border-color: transparent;
+    background: linear-gradient( #54B9ED, #2E6CA8);
+    color: white;
   }
 
   .solutionTitle{
@@ -83,3 +88,34 @@ width: 2px;
     color: #B5B5B6;
     line-height: 24px;
   }
+
+
+
+
+@media only screen and (max-width: 1300px) {
+
+  .solutionTitle{
+    font-size: 15px;
+    line-height: 5px;
+  }
+
+  .solutionContent{
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  .solutionItemContainer {
+    width: 250px;
+    height: 168px;
+  }
+
+  .solutionVerticalGreyLine{
+    background-color: transparent;
+  }
+
+  button{
+    padding: 7px 10px 7px 10px;
+  }
+
+
+}

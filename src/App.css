@@ -1,8 +1,11 @@
 .SubAppContainer {
   display: flex;
   justify-content: center;
+  /* background-color: yellow; */
+  
 }
 
 .SubApp {
-  width: 70%; 
+  /* width: 70%;  */
+  /* background-color: aqua; */
 }
