@@ -126,10 +126,15 @@
     }
   }
   
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 768px) {
     /* .itemContainer {
       grid-template-columns: 2fr;
     } */
+
+
+    
+ 
+
 
     .listItem{
       display: flex;
