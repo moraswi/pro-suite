@@ -3,7 +3,7 @@ import React from 'react'
 import '../styles/AboutUs.css'
 import screen from "../assets/screenNoShadow.png" 
 
-export default function Menu() {
+export default function AboutUs() {
   return (
     <div className='menuMainContainer'>
       

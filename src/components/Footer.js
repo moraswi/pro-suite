@@ -27,7 +27,7 @@ export default function Footer(){
             alt="ProSuite Logo"
             className="whiteLogo"
           />
-          <p>
+          <p className='footerItem'>
           ProSuite is a suite of cloud-based platforms which aims to transform
             and automate enterprise tasks. Our solutions prioritize user
             experience and provide easy-to-use tools, including Asset Management,
@@ -52,7 +52,7 @@ export default function Footer(){
         </div>
         <div className="footerColumn4">
           <h2 className='subTitles'>Contact Us</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacinia morbi praesent nulla tempor sagittis. Curabitur donec cursus donec risrdum nullam orci sit dictum. Molestie nunc sed amet vulputate in. Condimentum mi massa id interdum risus, tortor nunc mauris.</p>
+         <p className='footerItem'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacinia morbi praesent nulla tempor sagittis. Curabitur donec cursus donec risrdum nullam orci sit dictum. Molestie nunc sed amet vulputate in. Condimentum mi massa id interdum risus, tortor nunc mauris.</p>
         </div>
       </div>
 

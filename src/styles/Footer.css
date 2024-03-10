@@ -49,6 +49,8 @@
         font-size: 16px;
         line-height: 16px;
         font-weight: 700;
+        border-radius: 4px;
+        color: white;
         background: linear-gradient(#54B9ED, #2E6CA8);
         cursor: pointer;
         /* transition: all 0.3s ease; */
