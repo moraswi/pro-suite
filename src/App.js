@@ -17,7 +17,9 @@ function App() {
           <Solution/>
         </div>
       </div>
-      {/* <Footer/> */}
+  <div className='footerNav'>
+      <Footer/>
+      </div>
     </div>
   );
 }
