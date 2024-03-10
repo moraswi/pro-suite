@@ -20,7 +20,7 @@ export default function Footer(){
       </div>
 
       <div className='subFootMainContainer'>
-      {/* <div className="footerContent">
+      <div className="footerContent">
         <div className="footerColumn1">
           <img
             src={whiteLogo}
@@ -54,7 +54,7 @@ export default function Footer(){
           <h2 className='subTitles'>Contact Us</h2>
          <p className='footerItem'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacinia morbi praesent nulla tempor sagittis. Curabitur donec cursus donec risrdum nullam orci sit dictum. Molestie nunc sed amet vulputate in. Condimentum mi massa id interdum risus, tortor nunc mauris.</p>
         </div>
-      </div> */}
+      </div>
 
       <div className='bottomFooterRow'>
         <div className='privacyContainer'>
