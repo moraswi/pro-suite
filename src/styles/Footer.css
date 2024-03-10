@@ -16,7 +16,7 @@
     width: 100%;
     height: 129px;
     background-color: #84BE35;
-    /* display: flex; */
+    display: flex;
     /* flex-direction: row; */
     /* align-items: center;  */
    }
@@ -24,11 +24,8 @@
   .subRequestDemoContainer{
     display: flex;
     width: 1330px;
-    height: 100%;
     margin: 0 auto;
     justify-content: space-between;
-    /* background-color: red; */
-    /* align-items: center; */
     align-items: center;
   }
 
@@ -45,6 +42,7 @@
         line-height: 16px;
         font-weight: 700;
         border-radius: 4px;
+        margin-bottom: -25px;
         color: white;
         background: linear-gradient(#54B9ED, #2E6CA8);
         cursor: pointer;
@@ -88,10 +86,6 @@
     line-height: 20px;
   }
 
-  .footerColumn3, .footerColumn2{
-    /* line-height: 20px; */
-  }
-
   .footerColumn4{
     width: 250px;
     line-height: 16px;
@@ -117,14 +111,15 @@
     font-size: 36px;
     font-weight: 700;
     line-height: 16px;
-    margin-top: -5px;
-    /* background-color: red; */
   }
 
 .bottomFooterRow{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0 auto;
+    width: 1330px;
+
 }
 
 .privacyContainer{
@@ -137,7 +132,6 @@
   .footerTitle{
     font-size: 20px;
     line-height: 18px;
-    margin-top: 0px;
   }
 
   .buttonReq{
@@ -153,15 +147,14 @@
 @media only screen and (max-width: 768px) {
   
 .bottomFooterRow{
+  width: 100%;
   flex-direction: column;
   align-items: center;
 }
 
 .privacyContainer{
+  margin-top: 20px;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
   text-align: center;
 
 }
