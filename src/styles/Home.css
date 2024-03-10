@@ -30,7 +30,7 @@
   }
 
 .getStarted {
-    width: 163px;
+    /* width: 163px; */
     height: 48px;
     color: white;
     background-color: black;
@@ -40,10 +40,12 @@
     font-size: 16px;
     font-weight: 700;
     margin-top: 13px;
+    padding: 12px 24px 12px 24px;
+
   }
 
 .requestDemo{
-  width: 163px;
+  /* width: 163px; */
   height: 48px;
   color: white;
   background-color: #91BC4D;
@@ -53,11 +55,13 @@
   font-weight: 700;
   margin-top: 13px;
   margin-left: 10px;
+  padding: 12px 24px 12px 24px;
+
 }
 
 .rightSide {
   height: 601px;
-  width: 601px;
+  /* width: 601px; */
   
   background-size: contain;
   background-position: center;

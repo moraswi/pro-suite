@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
-import '../styles/WhyProSuit.css'
+import '../styles/AboutUs.css'
 import screen from "../assets/screenNoShadow.png" 
 
 export default function Menu() {
