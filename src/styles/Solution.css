@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 40px;
   }
 
   .vertical-line {
@@ -16,34 +17,50 @@
 
   .solutionItem{
     /* width: 100%;  */
+    width: 100%; 
     height: auto;
+    display: grid;
+
    /* display: grid;
    grid-template-columns: 1fr 1fr 1fr; */
-   display: flex;
-   flex-direction: row;
+   /* display: flex;
+   flex-direction: row; */
    place-items: center;
 /* background-color: red; */
+
+grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+grid-gap: 40px;
  }
 
  .solutionItemContainer {
     text-align: center;
     text-align: left;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
     width: 400px;
     height: 168px;
-    margin: 5px;
+    /* background-color: red; */
+    /* margin: 5px; */
     /* box-shadow: 1px 2px 16px  rgba(0, 0, 0, 0.1); */
-    padding: 20px;
+    /* padding: 20px; */
   }
+  
 
   .solutionVerticalGreyLine{
     background-color: #E5E5E5;
     width: 2px;
     height: 85px;
+    margin-right: 20px;
+  }
+
+  .solutionVerticalWhiteLine{
+background-color: transparent;
+width: 2px;
+    height: 85px;
+    margin-right: 20px;
   }
 
   button{
