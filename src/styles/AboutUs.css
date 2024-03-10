@@ -8,7 +8,7 @@
   .vertical-line {
     border-left: 6px solid #91BC4D;
     height: 42px;
-    width: 6px;
+   width: 6px;
     margin-right: 10px;
     margin-bottom: -8px;
     display: inline-block;
@@ -58,21 +58,24 @@
   }
 
   .listItem{
-     /* width: 100%;  */
+     width: 100%; 
      height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    grid-gap: 40px;
     place-items: center;
 
   }
 
-  /* .itemContainer {
+  .itemContainer {
     border-radius: 15px;
     width: 400px;
     height: 400px;
     margin: 5px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-  } */
+    position: relative;
+  }
 
   .screen{
   
