@@ -2,10 +2,13 @@
   font-family: 'Open Sans';
 }
 
-/* *{
-  padding: 0;
-  margin: 0;
-} */
+*{
+  /* padding: 0;
+  margin: 0; */
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
 
 .SubAppContainer {
   display: flex; 

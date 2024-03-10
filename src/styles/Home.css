@@ -18,7 +18,7 @@
   font-weight: 700;
   font-size: 96px;
   line-height: 88px;
-  margin-top: -30px;
+  margin-top: -10px;
   background-image: linear-gradient( #54B9ED, #2E6CA8);
   -webkit-background-clip: text;
   color: transparent;
@@ -34,7 +34,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    margin-top: -30px;
+    margin-top: 30px;
     color: #B5B5B6;
   }
 
@@ -69,22 +69,28 @@
 }
 
 @media only screen and (max-width: 1300px) {
+
+  .welcome {
+    /* font-weight: 400; */
+    font-size: 15px;
+    /* line-height: 70px; */
+    color: #91BC4D;
+  }
   
   .contentContainer h1 {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 40px;
     }
 
     .rightSide {
       height: 200px;
       width: 200px;
-      margin-top: 60px;
     }
-    .contentContainer .content {
-      font-size: 10px;
-      line-height: 20px;
-      margin-top: -20px;
+    .content {
+      font-size: 14px;
+      line-height: 23px;
+      margin-top: -1px;
     }
 
     .getStarted, .requestDemo {
@@ -99,4 +105,11 @@
       padding: 10px 15px 10px 15px;
   
     }
+
+    .homeMainContainer{
+      display: flex;
+      flex-direction: column;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
 }

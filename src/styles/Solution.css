@@ -29,11 +29,9 @@
    place-items: center;
 /* background-color: red; */
 
-grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
-grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    grid-gap: 40px;
  }
-
-
 
  .solutionItemContainer {
     text-align: center;
@@ -71,6 +69,7 @@ grid-gap: 40px;
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
+    margin-top: 16px;
     border-color: transparent;
     background: linear-gradient( #54B9ED, #2E6CA8);
     color: white;

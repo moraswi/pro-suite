@@ -17,7 +17,7 @@ function App() {
           <Solution/>
         </div>
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
