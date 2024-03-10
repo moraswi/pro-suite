@@ -8,6 +8,8 @@
 
     grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
     grid-gap: 40px;
+    place-items: center;
+
 }
 
 /* .contentContainer{
@@ -68,7 +70,21 @@
   background-position: center;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1024px) {
+
+  .contentContainer h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    }
+
+    .homeMainContainer{
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
 
   .welcome {
     /* font-weight: 400; */
@@ -77,11 +93,11 @@
     color: #91BC4D;
   }
   
-  .contentContainer h1 {
+  /* .contentContainer h1 {
     font-weight: 700;
     font-size: 30px;
     line-height: 40px;
-    }
+    } */
 
     .rightSide {
       height: 200px;
