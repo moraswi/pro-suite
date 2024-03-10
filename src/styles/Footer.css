@@ -1,17 +1,13 @@
-/* Footer.css */
 .footer {
-    /* background-color: #348ADD; */
     background: linear-gradient( #348ADD, #2E6CA8);
     color: #ffffff;
     margin-top: 60px;
-    /* padding: 20px; */
-    /* text-align: center; */
+    padding-bottom: 10px;
   }
 
   .subFootMainContainer{
     display: flex;
     flex-direction: column;
-    /* background-color: red; */
     max-width: 1330px;
     margin: 0 auto;
 
@@ -27,13 +23,10 @@
 
   .subRequestDemoContainer{
     display: flex;
-    /* flex-direction: row; */
     width: 1330px;
     margin: 0 auto;
     justify-content: space-between;
-    /* align-content: center; */
     align-items: center;
-    /* background-color: red; */
   }
 
   .subTitles{
@@ -43,23 +36,18 @@
   }
 
   .buttonReq{
-        /* border-radius: 4px; */
         border-color: transparent;
         padding: 12px 24px 12px 24px;
         font-size: 16px;
         line-height: 16px;
         font-weight: 700;
         border-radius: 4px;
+        margin-bottom: -25px;
         color: white;
         background: linear-gradient(#54B9ED, #2E6CA8);
         cursor: pointer;
-        /* transition: all 0.3s ease; */
   }
  
-  .footerNav{
-    background-color: red;
-
-  }
   .footerContent {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
@@ -80,8 +68,18 @@
     font-weight: 400;
   }
 
+  .label{
+    margin-top: 8px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+  }
+
   label{
     margin-top: 14px;
+    cursor: pointer;
+
   }
 
   .footerColumn1{
@@ -94,8 +92,6 @@
     line-height: 20px;
   }
 
-
-
   .footerColumn4{
     width: 250px;
     line-height: 16px;
@@ -107,7 +103,7 @@
 
   .footer-copyright{
     margin-right: 100px;
-  
+
   }
 
   .socialLogoItem{
@@ -147,6 +143,7 @@
     padding: 7px 15px 7px 15px;
     font-size: 10px;
     line-height: 12px;
+    margin-bottom: 0px;
   }
 }
  

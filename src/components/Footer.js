@@ -28,7 +28,7 @@ export default function Footer(){
             className="whiteLogo"
           />
           <p className='footerItem'>
-          ProSuite is a suite of cloud-based platforms which aims to transform
+            ProSuite is a suite of cloud-based platforms which aims to transform
             and automate enterprise tasks. Our solutions prioritize user
             experience and provide easy-to-use tools, including Asset Management,
             Risk Management, and Performance Management.
@@ -44,11 +44,11 @@ export default function Footer(){
         </div>
         <div className="footerColumn3">
           <h2 className='subTitles'>Learn</h2>
-         <label>Home</label>
-         <label>About</label>
-         <label>Solutions</label>
-         <label>Contact</label>
-         <label>Request Demo</label>
+          <a className="label" href="/#home"> Home</a>
+          <a className="label" href="/#home"> <label>About</label></a>
+          <a className="label" href="/#home"> <label>Solutions</label></a>
+          <a className="label" href="/#home"><label>Contact</label></a>
+          <a className="label" href="/#home"><label>Request Demo</label></a>
         </div>
         <div className="footerColumn4">
           <h2 className='subTitles'>Contact Us</h2>
@@ -58,21 +58,19 @@ export default function Footer(){
 
       <div className='bottomFooterRow'>
         <div className='privacyContainer'>
-        <p className="footer-copyright">
-        2024 © {year} ProSuite. All rights reserved.
-        </p>
-        <p>Privacy Policy</p>
-      </div>
+          <p className="footer-copyright">
+            2024 © {year} ProSuite. All rights reserved.
+          </p>
+          <p>Privacy Policy</p>
+        </div>
 
-
-      <div className='socialMediaLogo'>
-        <TwitterIcon className='socialLogoItem'/>
-        <FacebookIcon className='socialLogoItem'/>
-        <InstagramIcon className='socialLogoItem'/>
-        <GitHubIcon className='socialLogoItem'/>
+        <div className='socialMediaLogo'>
+          <TwitterIcon className='socialLogoItem'/>
+          <FacebookIcon className='socialLogoItem'/>
+          <InstagramIcon className='socialLogoItem'/>
+          <GitHubIcon className='socialLogoItem'/>
+        </div>
       </div>
-      </div>
-
       </div>
     </footer>
   );

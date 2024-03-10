@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* background-color: green; */
   }
 
   .vertical-line {
@@ -34,13 +33,11 @@
     font-weight: normal;
   }
 
-
   .proSuiteTitle{
     font-size: 24px;
     font-weight: 700;
     color: #B5B5B6;
     line-height: 30px;
-    /* margin-top: 2px; */
   }
   .paragraphContent{
     font-weight: 400;
@@ -68,8 +65,7 @@
      width: 100%; 
      height: auto;
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    grid-template-columns: repeat(auto-fit, minmax(10px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(310px,1fr));
     grid-gap: 40px;
 
     place-items: center;
@@ -93,10 +89,6 @@
   }
 
   @media only screen and (max-width: 1300px) {
-    /* .itemContainer {
-      width: 100%;
-      grid-template-columns: 1fr 1fr;
-    } */
 
     .itemContainer {
       border-radius: 15px;
@@ -127,16 +119,9 @@
   }
   
   @media only screen and (max-width: 768px) {
-    /* .itemContainer {
-      grid-template-columns: 2fr;
-    } */
-
-
     .listItem{
       display: flex;
       flex-direction: column;
       align-items: center;
-      /* padding-left: 10px;
-      padding-right: 10px; */
-  }
+    }
   }

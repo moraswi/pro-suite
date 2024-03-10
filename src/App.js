@@ -12,13 +12,28 @@ function App() {
       <NavBar/>
       <div className="SubAppContainer">
         <div className="SubApp">
+
+        <section id="home">
           <Home/>
+        </section>
+
+          <section id="about-us">
           <AboutUs/>
+          </section>
+
+
+          <section id="solution">
           <Solution/>
+          </section>
+
         </div>
       </div>
   <div className='footerNav'>
+
+  <section id="contact-us">
+
       <Footer/>
+      </section>
       </div>
     </div>
   );

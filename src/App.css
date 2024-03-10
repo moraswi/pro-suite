@@ -3,8 +3,6 @@
 }
 
 *{
-  /* padding: 0;
-  margin: 0; */
   margin-bottom: 0;
   margin-right: 0;
   margin-left: 0;
@@ -18,7 +16,7 @@
   
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1500px) {
   .SubAppContainer {
      width: 100%;
   }
