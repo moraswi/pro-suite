@@ -1,9 +1,7 @@
 
 import './App.css';
 import Home from "./pages/Home"
-import AboutUs from "./pages/AboutUs"
 import WhyProSuit from "./pages/WhyProSuit"
-import ContactUs from "./pages/ContactUs"
 import Footer from "./components/Footer"
 
 function App() {
@@ -14,11 +12,9 @@ function App() {
       <Home/>
 
           <WhyProSuit/>
-          {/* <AboutUs/> */}
-          {/* <ContactUs/> */}
         </div>
       </div>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }

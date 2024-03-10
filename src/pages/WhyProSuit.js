@@ -16,10 +16,7 @@ export default function Menu() {
       </div>
       
       <div className='listItem'>
-
-  
       <div className='itemContainer'>
-        
       <img
         src={screen}
         alt="Description of the image"
