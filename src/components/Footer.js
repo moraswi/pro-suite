@@ -45,10 +45,10 @@ export default function Footer(){
         <div className="footerColumn3">
           <h2 className='subTitles'>Learn</h2>
           <a className="label" href="/#home"> Home</a>
-          <a className="label" href="/#home"> <label>About</label></a>
-          <a className="label" href="/#home"> <label>Solutions</label></a>
-          <a className="label" href="/#home"><label>Contact</label></a>
-          <a className="label" href="/#home"><label>Request Demo</label></a>
+          <a className="label" href="/#about-us"> <label>About</label></a>
+          <a className="label" href="/#solution"> <label>Solutions</label></a>
+          <label>Contact</label>
+          <label>Request Demo</label>
         </div>
         <div className="footerColumn4">
           <h2 className='subTitles'>Contact Us</h2>

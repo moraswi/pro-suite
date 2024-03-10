@@ -28,13 +28,12 @@ function App() {
 
         </div>
       </div>
-  <div className='footerNav'>
+  {/* <div className='footerNav'> */}
 
-  <section id="contact-us">
-
-      <Footer/>
+      <section id="contact-us">
+          <Footer/>
       </section>
-      </div>
+      {/* </div> */}
     </div>
   );
 }

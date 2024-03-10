@@ -10,22 +10,25 @@
     flex-direction: column;
     max-width: 1330px;
     margin: 0 auto;
-
   }
 
   .requestDemoContainer{
     width: 100%;
     height: 129px;
     background-color: #84BE35;
-    display: flex;
-    flex-direction: row;
-    align-items: center;  }
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: center;  */
+   }
 
   .subRequestDemoContainer{
     display: flex;
     width: 1330px;
+    height: 100%;
     margin: 0 auto;
     justify-content: space-between;
+    /* background-color: red; */
+    /* align-items: center; */
     align-items: center;
   }
 
@@ -42,7 +45,6 @@
         line-height: 16px;
         font-weight: 700;
         border-radius: 4px;
-        margin-bottom: -25px;
         color: white;
         background: linear-gradient(#54B9ED, #2E6CA8);
         cursor: pointer;
@@ -69,17 +71,15 @@
   }
 
   .label{
-    margin-top: 8px;
+    margin-top: 4px;
     text-decoration: none;
     color: white;
     cursor: pointer;
-
   }
 
   label{
     margin-top: 14px;
     cursor: pointer;
-
   }
 
   .footerColumn1{
@@ -89,7 +89,7 @@
   }
 
   .footerColumn3, .footerColumn2{
-    line-height: 20px;
+    /* line-height: 20px; */
   }
 
   .footerColumn4{
@@ -117,6 +117,8 @@
     font-size: 36px;
     font-weight: 700;
     line-height: 16px;
+    margin-top: -5px;
+    /* background-color: red; */
   }
 
 .bottomFooterRow{
@@ -135,6 +137,7 @@
   .footerTitle{
     font-size: 20px;
     line-height: 18px;
+    margin-top: 0px;
   }
 
   .buttonReq{
