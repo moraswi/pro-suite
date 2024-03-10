@@ -12,6 +12,13 @@ export default function Footer(){
   return (
     <footer className="footer">
 
+      <div className='requestDemoContainer'>
+<div className='subRequestDemoContainer'>
+<h1>We'd love to show you how our solution works</h1>
+<button className='buttonReq'>REQUEST A DEMO</button>
+</div>
+      </div>
+
       <div className='subFootMainContainer'>
       <div className="footerContent">
         <div className="footerColumn1">
