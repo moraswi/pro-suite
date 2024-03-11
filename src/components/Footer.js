@@ -34,8 +34,7 @@ export default function Footer(){
             Risk Management, and Performance Management.
           </p>
         </div>
-        {/* <div className="separate">
-        </div> */}
+     
         <div className="footerColumn2">
           <h2 className='subTitles'>Services</h2>
 
@@ -53,15 +52,12 @@ export default function Footer(){
           <a className="label" href="/#contact-us"><label>Contact</label></a>
           <a className="label" href="/#contact-us"> <label>Request Demo</label></a>
           </div>
-       
   
         <div className="footerColumn4">
           <h2 className='subTitles'>Contact Us</h2>
          <p className='footerItem'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacinia morbi praesent nulla tempor sagittis. Curabitur donec cursus donec risrdum nullam orci sit dictum. Molestie nunc sed amet vulputate in. Condimentum mi massa id interdum risus, tortor nunc mauris.</p>
         </div>
-        
-        {/* <div className="separate">
-        </div> */}
+
       </div>
       </div>
       <div className='bottomFooterRow'>

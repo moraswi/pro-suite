@@ -2,7 +2,7 @@ import { useRef } from "react";
 import '../styles/NavBar.css'
 import logo from "../assets/logo.png" 
 
-function Navbar() {
+export default function Navbar() {
 	const navRef = useRef();
 
 	return (
@@ -24,5 +24,3 @@ function Navbar() {
 		</header>
 	);
 }
-
-export default Navbar;

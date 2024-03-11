@@ -28,12 +28,10 @@ function App() {
 
         </div>
       </div>
-  {/* <div className='footerNav'> */}
 
       <section id="contact-us">
           <Footer/>
       </section>
-      {/* </div> */}
     </div>
   );
 }
